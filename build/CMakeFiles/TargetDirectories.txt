@@ -1,0 +1,5 @@
+D:/prog-practice/course work 1 course/arkanoid/build/CMakeFiles/Arkanoid.dir
+D:/prog-practice/course work 1 course/arkanoid/build/CMakeFiles/package.dir
+D:/prog-practice/course work 1 course/arkanoid/build/CMakeFiles/package_source.dir
+D:/prog-practice/course work 1 course/arkanoid/build/CMakeFiles/edit_cache.dir
+D:/prog-practice/course work 1 course/arkanoid/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/prog-practice/course work 1 course/arkanoid/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Arkanoid.dir/includes_CXX.rsp -g -o CMakeFiles\\Arkanoid.dir\\src\\main.cpp.obj -c \"D:\\prog-practice\\course work 1 course\\arkanoid\\src\\main.cpp\"",
+  "file": "D:/prog-practice/course work 1 course/arkanoid/src/main.cpp",
+  "output": "CMakeFiles/Arkanoid.dir/src/main.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir

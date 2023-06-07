@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-build/src/SFML/System/sfml-system.rc
+winresrc.h
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-build/src/SFML/System/winresrc.h
+

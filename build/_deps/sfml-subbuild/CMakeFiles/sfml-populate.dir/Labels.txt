@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
+D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule

@@ -1,0 +1,1 @@
+-I"D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-src/include" -I"D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-src/src" -I"D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-src/extlibs/headers/vulkan" -isystem "D:/prog-practice/course work 1 course/arkanoid/build/_deps/sfml-src/extlibs/headers/glad/include"
