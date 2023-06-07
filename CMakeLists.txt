@@ -1,16 +1,39 @@
-cmake_minimum_required(VERSION 3.10)
-project(arkanoid)
+cmake_minimum_required(VERSION 3.21.0)
 
-set (CMAKE_CXX_STANDARD 11)
-set (CMAKE_CXX_COMPILER /usr/bin/g++)
+project(Arkanoid)
 
-find_library(LIB_SFML_SYSTEM sfml-system)
-find_library(LIB_SFML_WINDOW sfml-window)
-find_library(LIB_SFML_GRAPHICS sfml-graphics)
-find_library(LIB_SFML_AUDIO sfml-audio)
-include_directories("${PROJECT_SOURCE_DIR}/include" "/usr/include/SFML")
+set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build)
 
-file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS "src/*.cpp")
+set(SFML_DIR ${PROJECT_SOURCE_DIR}/3rdparty/SFML/lib/cmake/SFML)
+set(SFML_SHARED_LIBRARIES_DIR ${PROJECT_SOURCE_DIR}/3rdparty/SFML/bin)
 
-add_executable(${PROJECT_NAME} ${SRC_FILES})
-target_link_libraries(${PROJECT_NAME} ${LIB_SFML_SYSTEM} ${LIB_SFML_WINDOW} ${LIB_SFML_GRAPHICS} ${LIB_SFML_AUDIO})
+set(SFML_BUILD_NETWORK OFF)
+set(SFML_BUILD_EXAMPLES OFF)
+set(SFML_BUILD_DOC OFF)
+
+find_package(SFML 2.5 COMPONENTS system graphics audio REQUIRED)
+
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
+add_executable(
+    Arkanoid
+    ${PROJECT_SOURCE_DIR}/src/Main.cpp
+)
+
+target_link_libraries(
+    Arkanoid
+    sfml-main
+    sfml-graphics
+    sfml-audio
+    sfml-window
+    sfml-system
+)
+
+add_custom_command(
+    TARGET ${CMAKE_PROJECT_NAME}
+    POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        "${SFML_SHARED_LIBRARIES_DIR}"
+        "$<TARGET_FILE_DIR:${CMAKE_PROJECT_NAME}>"    
+)
